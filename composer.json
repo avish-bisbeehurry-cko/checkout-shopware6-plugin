@@ -1,0 +1,41 @@
+{
+  "name": "checkoutcom/shopware-6",
+  "description": "Checkout.com integration for Shopware 6",
+  "version": "1.0.0",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ECP Team"
+    }
+  ],
+  "require": {
+	 "shopware/core": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Checkoutcom\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Checkoutcom\\Checkoutcom",
+    "plugin-icon": "src/Resources/public/cko-favicon.ico",
+    "copyright": "(c) by checkout",
+    "label": {
+      "de-DE": "Checkout.com",
+      "en-GB": "Checkout.com"
+    },
+    "description": {
+      "de-DE": "Description - Checkout.com Payment Plugin",
+      "en-GB": "Description - Checkout.com Payment Plugin"
+    },
+    "manufacturerLink": {
+      "de-DE": "Manufacture link - https://www.checkout.com",
+      "en-GB": "Manufacture link - https://www.checkout.com"
+    },
+    "supportLink": {
+      "de-DE": "Support link - https://www.checkout.com",
+      "en-GB": "Support Link - https://www.checkout.com"
+    }
+  }
+}
